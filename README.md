@@ -8,7 +8,7 @@ The example used is a simple batch file to start a VMWare Workstation VM on my m
 ## How To
 
 1. After creating a batch (.bat) file, right-click on the Desktop and 
-select "New" -> "Shortcut".
+select "New" -> "Shortcut":
 
     ![Create Shortcut](how-to/create-shortcut.png)
 
@@ -42,11 +42,11 @@ select "New" -> "Shortcut".
 
     ![Pin to Start Menu](how-to/pin-to-start.png)
 
-8. If desired, right-click on the start menu shorcut and resize it to small:
+8. If desired, right-click on the start menu shortcut and resize it to small:
 
     ![Pin to Start Menu 2](how-to/pin-to-start-2.png)
 
-9. Place your start menu shorcut where you would like it: 
+9. Place your start menu shortcut where you would like it: 
 
     ![Pin to Start Menu 3](how-to/pin-to-start-3.png)
 
