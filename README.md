@@ -7,20 +7,22 @@ The example used is a simple batch file to start a VMWare Workstation VM on my m
 
 ## How To
 
-1. After creating a batch (.bat) file, right-click on the Desktop and 
+1. After creating a batch (.bat) file, right-click within the desired folder and 
 select "New" -> "Shortcut":
 
     ![Create Shortcut](how-to/create-shortcut.png)
 
+    ***Note**: This example uses a "start-menu-batch" folder on the User's Desktop.*
+
 2. On the "Create Shortcut" dialog prompt, enter the following value, and click the "Next" button:
 
     ```cmd
-    cmd /c start "" "%USERPROFILE%/start-menu-batch/Snake.bat"
+    cmd /c start "" "%USERPROFILE%/Desktop/start-menu-batch/Snake.bat"
     ```
 
     ![Create Shortcut 2](how-to/create-shortcut-2.png)
 
-    ***Note**: Change `"%USERPROFILE%/start-menu-batch/Snake.bat"` with the path to your batch file.*
+    ***Note**: Change `"%USERPROFILE%/Desktop/start-menu-batch/Snake.bat"` with the path to your batch file.*
 
 3. Enter a name for the shortcut and click the "Finish" button:
 
@@ -33,6 +35,8 @@ select "New" -> "Shortcut":
 5. Click the "Browse" button and locate the desired icon (.ico) file:
 
     ![Change Icon 2](how-to/change-icon-2.png)
+
+    ***Note**: The example value is `"%USERPROFILE%\Desktop\start-menu-batch\batch.ico"`*
 
 6. Once the desired icon is selected, click the "OK" button twice.
 
